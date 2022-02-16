@@ -6,7 +6,7 @@ public class Main {
         final int countOfCars;
         double countOfMoney = 15.20;
         boolean weatherIsSunny = true;
-        int number = 4;
+        int count = 10;
 
         countOfMoney = 1;
         countOfCars = 23;
