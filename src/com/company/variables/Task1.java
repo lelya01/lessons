@@ -15,7 +15,9 @@ public class Task1 {
 
         double temperatureStorage = -3.6;
 
-    //    System.out.print(calendarDates);
+        System.out.print(calendarDay);
+        System.out.print(".");
+        System.out.print(calendarMonth);
         System.out.print(".");
         System.out.println(calendarYear);
         System.out.println(numberPi);
