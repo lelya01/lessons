@@ -1,4 +1,4 @@
-package com.company.test;
+package com.company.Practise.test;
 
 public class Test {
     public static void main(String[] args) {
