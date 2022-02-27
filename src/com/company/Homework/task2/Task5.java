@@ -2,7 +2,7 @@ package com.company.Homework.task2;
 
 public class Task5 {
     public static void main(String[] args) {
-        int num = 952157;
+        int num = 789657;
         int num0 = 7;
         int num1 = 5;
         int num2 = 1;
