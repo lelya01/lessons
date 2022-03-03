@@ -18,6 +18,7 @@ public class Task4 {
         else{
             System.out.println("непростое число");
         }
+        System.out.println(i);
     }
 }
 
