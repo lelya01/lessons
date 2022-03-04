@@ -1,4 +1,4 @@
-package com.company.Practise.test.variables;
+package com.company.variables;
 
 public class Task1 {
     public static void main(String[] args) {
