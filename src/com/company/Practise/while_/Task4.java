@@ -5,20 +5,25 @@ public class Task4 {
     public static void main(String[] args) {
         int num = 8;
         int i = 2;
+        int counter = 0;
         boolean isSimple = true;
+
         while(i < num){
+            counter++;
             if(num % i ==0){
                 isSimple = false;
             }
             i++;
         }
+
         if (isSimple){
             System.out.println("простое число");
         }
         else{
             System.out.println("непростое число");
         }
-        System.out.println(i);
+
+        System.out.println(counter);
     }
 }
 
