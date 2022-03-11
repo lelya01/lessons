@@ -5,14 +5,16 @@ package com.company.Practise.while_;
 // А банк вычисляет конечную сумму вклада с учетом начисления процентов за каждый месяц.
 public class Task2 {
     public static void main(String[] args) {
-        int sum = 20000;
-        int month = 9;
-        int pay = 0;
-        while(sum % 7 > 0){
-            pay++;
-            System.out.println(pay);
+        double sum = 20000;
+        int month = 12;
+        int percents = 7;
+        double percentsPerMonth = percents / 12.0;
 
+        int i = 0;
+        while(i < month){
+            sum += sum / 100 * percentsPerMonth;
+            i++;
         }
-
+        System.out.println(sum);
     }
 }

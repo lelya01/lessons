@@ -2,11 +2,15 @@ package com.company.Practise.while_;
 // Возвести n в степень k
 public class Task5 {
     public static void main(String[] args) {
-        int num = 5;
-        int deg = 0;
-        if (deg >= 7 ){
-           int end = num * num;
+        final int num = 5;
+        final int deg = 3;
+        int result = num;
+
+        int i = 0;
+        while( i < deg - 1){
+            result *= num;
+            i++;
         }
-        deg++;
+        System.out.println(result);
     }
 }
